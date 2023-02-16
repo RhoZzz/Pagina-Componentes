@@ -1,0 +1,25 @@
+#barra-dinamica-top{
+  background-color: #FEBB00;
+  height: 30px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+div{
+  display: block;
+}
+div#barra-dinamica-top p{
+  text-align: center;
+  font-size: 16px;
+}
